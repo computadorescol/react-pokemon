@@ -1,0 +1,35 @@
+@use 'variables' as v;
+
+
+
+.button {
+    background-color : v.$color1 ;
+       width    :  60px ;
+       height	:  60px ;
+		border-radius  :  50% ;
+        cursor : pointer ;
+        color :yellow ;
+        font-size : 30px;
+        border-radius : 50%;
+        border : none;
+        position : relative;
+
+		
+&__box {
+     //border : 2px solid green ;
+     position : relative;
+     
+      }
+&__shadow{
+    width:  60px;
+    height:  60px;
+	background-color :  v.$color2;
+    z-index: -1;
+    border-radius : 50%;
+    position : absolute;
+    top : 25px;
+   }
+   &:active {
+    transform :translateY(4px ) ;
+    } 
+}
