@@ -36,7 +36,7 @@ const [PokemonId, setPokemonId]    = useState(10) ;
           //pokemonEvoArray.push( [ pokemonLv3,  pokemonLv3Img])
           //console.log( pokemonEvoArray )   
                       //  }            
-
+esto es..
 
      async function getPokemonImgs(name){
       const response = await fetch(`https://pokeapi.co/api/v2/pokemon/${name}/`) 
